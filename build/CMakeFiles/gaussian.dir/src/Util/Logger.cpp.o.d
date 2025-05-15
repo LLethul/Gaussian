@@ -201,4 +201,4 @@ CMakeFiles/gaussian.dir/src/Util/Logger.cpp.o: \
  /usr/include/c++/15.1.1/ext/aligned_buffer.h \
  /usr/include/c++/15.1.1/bits/align.h \
  /usr/include/c++/15.1.1/bits/fs_dir.h \
- /usr/include/c++/15.1.1/bits/fs_ops.h
+ /usr/include/c++/15.1.1/bits/fs_ops.h /usr/include/c++/15.1.1/stacktrace

@@ -25,6 +25,7 @@ namespace Gaussian {
             std::string source_;
             Position current_position_;
             size_t current_index_;
+            size_t last_index_;
 
             /**
              * @brief Retrieves the next token from the source code.

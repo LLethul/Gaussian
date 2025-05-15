@@ -3,7 +3,7 @@
 
 void Gaussian::Lexer::Lexer::skip_whitespace() {
     while (!is_at_end()) {
-        if (isspace(peek())) advance();
+        if (isspace(peek()) || peek() == '\n' || peek() == ' ') advance();
         else if (peek() == '#') {
             while (!is_at_end() && peek() != '\n') advance();
             if (peek() == '\n') advance(); break;
@@ -18,11 +18,12 @@ char Gaussian::Lexer::Lexer::peek() const {
 }
 
 char Gaussian::Lexer::Lexer::advance() {
+    char c = peek();
     if (!is_at_end()) {
         current_index_++;
         current_position_.advance(peek());
     }
-    return peek();
+    return c;
 }
 
 bool Gaussian::Lexer::Lexer::is_at_end() const {
@@ -36,6 +37,7 @@ Gaussian::Lexer::Token Gaussian::Lexer::Lexer::create_token(TokenType type, cons
 Gaussian::Lexer::Token Gaussian::Lexer::Lexer::identifier() {
     std::string value;
     const Position start = current_position_;
+
     while (isalnum(peek()) || peek() == '_') {
         value += advance();
     }
@@ -65,8 +67,11 @@ Gaussian::Lexer::Token Gaussian::Lexer::Lexer::string_literal() {
 Gaussian::Lexer::Token Gaussian::Lexer::Lexer::next_token() {
     skip_whitespace();
     if (is_at_end()) return create_token(TokenType::end_of_file, "\0", current_position_);
+    if (last_index_ == current_index_) advance();
 
-    char current_char = advance();
+    char current_char = peek();
+    last_index_ = current_index_;
+    
     if (isalpha(current_char)) {
         return identifier();
     } else if (isdigit(current_char)) {
