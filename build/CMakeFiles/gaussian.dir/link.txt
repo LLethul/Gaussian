@@ -1,0 +1,1 @@
+/usr/bin/c++ -g -Wl,--dependency-file=CMakeFiles/gaussian.dir/link.d CMakeFiles/gaussian.dir/src/Chunk.cpp.o CMakeFiles/gaussian.dir/src/Lexer/Lexer.cpp.o CMakeFiles/gaussian.dir/src/Lexer/Token.cpp.o CMakeFiles/gaussian.dir/src/Position.cpp.o CMakeFiles/gaussian.dir/src/Util/Fs.cpp.o CMakeFiles/gaussian.dir/src/Util/Logger.cpp.o CMakeFiles/gaussian.dir/src/main.cpp.o -o gaussian

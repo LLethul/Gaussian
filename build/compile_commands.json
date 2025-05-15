@@ -1,0 +1,44 @@
+[
+{
+  "directory": "/mnt/9399549f-9879-48b3-90ed-7eae6b2b36c1/Projects/Code/CXX/Gaussian/build",
+  "command": "/usr/bin/c++  -I/mnt/9399549f-9879-48b3-90ed-7eae6b2b36c1/Projects/Code/CXX/Gaussian/include -g -std=gnu++23 -o CMakeFiles/gaussian.dir/src/Chunk.cpp.o -c /mnt/9399549f-9879-48b3-90ed-7eae6b2b36c1/Projects/Code/CXX/Gaussian/src/Chunk.cpp",
+  "file": "/mnt/9399549f-9879-48b3-90ed-7eae6b2b36c1/Projects/Code/CXX/Gaussian/src/Chunk.cpp",
+  "output": "CMakeFiles/gaussian.dir/src/Chunk.cpp.o"
+},
+{
+  "directory": "/mnt/9399549f-9879-48b3-90ed-7eae6b2b36c1/Projects/Code/CXX/Gaussian/build",
+  "command": "/usr/bin/c++  -I/mnt/9399549f-9879-48b3-90ed-7eae6b2b36c1/Projects/Code/CXX/Gaussian/include -g -std=gnu++23 -o CMakeFiles/gaussian.dir/src/Lexer/Lexer.cpp.o -c /mnt/9399549f-9879-48b3-90ed-7eae6b2b36c1/Projects/Code/CXX/Gaussian/src/Lexer/Lexer.cpp",
+  "file": "/mnt/9399549f-9879-48b3-90ed-7eae6b2b36c1/Projects/Code/CXX/Gaussian/src/Lexer/Lexer.cpp",
+  "output": "CMakeFiles/gaussian.dir/src/Lexer/Lexer.cpp.o"
+},
+{
+  "directory": "/mnt/9399549f-9879-48b3-90ed-7eae6b2b36c1/Projects/Code/CXX/Gaussian/build",
+  "command": "/usr/bin/c++  -I/mnt/9399549f-9879-48b3-90ed-7eae6b2b36c1/Projects/Code/CXX/Gaussian/include -g -std=gnu++23 -o CMakeFiles/gaussian.dir/src/Lexer/Token.cpp.o -c /mnt/9399549f-9879-48b3-90ed-7eae6b2b36c1/Projects/Code/CXX/Gaussian/src/Lexer/Token.cpp",
+  "file": "/mnt/9399549f-9879-48b3-90ed-7eae6b2b36c1/Projects/Code/CXX/Gaussian/src/Lexer/Token.cpp",
+  "output": "CMakeFiles/gaussian.dir/src/Lexer/Token.cpp.o"
+},
+{
+  "directory": "/mnt/9399549f-9879-48b3-90ed-7eae6b2b36c1/Projects/Code/CXX/Gaussian/build",
+  "command": "/usr/bin/c++  -I/mnt/9399549f-9879-48b3-90ed-7eae6b2b36c1/Projects/Code/CXX/Gaussian/include -g -std=gnu++23 -o CMakeFiles/gaussian.dir/src/Position.cpp.o -c /mnt/9399549f-9879-48b3-90ed-7eae6b2b36c1/Projects/Code/CXX/Gaussian/src/Position.cpp",
+  "file": "/mnt/9399549f-9879-48b3-90ed-7eae6b2b36c1/Projects/Code/CXX/Gaussian/src/Position.cpp",
+  "output": "CMakeFiles/gaussian.dir/src/Position.cpp.o"
+},
+{
+  "directory": "/mnt/9399549f-9879-48b3-90ed-7eae6b2b36c1/Projects/Code/CXX/Gaussian/build",
+  "command": "/usr/bin/c++  -I/mnt/9399549f-9879-48b3-90ed-7eae6b2b36c1/Projects/Code/CXX/Gaussian/include -g -std=gnu++23 -o CMakeFiles/gaussian.dir/src/Util/Fs.cpp.o -c /mnt/9399549f-9879-48b3-90ed-7eae6b2b36c1/Projects/Code/CXX/Gaussian/src/Util/Fs.cpp",
+  "file": "/mnt/9399549f-9879-48b3-90ed-7eae6b2b36c1/Projects/Code/CXX/Gaussian/src/Util/Fs.cpp",
+  "output": "CMakeFiles/gaussian.dir/src/Util/Fs.cpp.o"
+},
+{
+  "directory": "/mnt/9399549f-9879-48b3-90ed-7eae6b2b36c1/Projects/Code/CXX/Gaussian/build",
+  "command": "/usr/bin/c++  -I/mnt/9399549f-9879-48b3-90ed-7eae6b2b36c1/Projects/Code/CXX/Gaussian/include -g -std=gnu++23 -o CMakeFiles/gaussian.dir/src/Util/Logger.cpp.o -c /mnt/9399549f-9879-48b3-90ed-7eae6b2b36c1/Projects/Code/CXX/Gaussian/src/Util/Logger.cpp",
+  "file": "/mnt/9399549f-9879-48b3-90ed-7eae6b2b36c1/Projects/Code/CXX/Gaussian/src/Util/Logger.cpp",
+  "output": "CMakeFiles/gaussian.dir/src/Util/Logger.cpp.o"
+},
+{
+  "directory": "/mnt/9399549f-9879-48b3-90ed-7eae6b2b36c1/Projects/Code/CXX/Gaussian/build",
+  "command": "/usr/bin/c++  -I/mnt/9399549f-9879-48b3-90ed-7eae6b2b36c1/Projects/Code/CXX/Gaussian/include -g -std=gnu++23 -o CMakeFiles/gaussian.dir/src/main.cpp.o -c /mnt/9399549f-9879-48b3-90ed-7eae6b2b36c1/Projects/Code/CXX/Gaussian/src/main.cpp",
+  "file": "/mnt/9399549f-9879-48b3-90ed-7eae6b2b36c1/Projects/Code/CXX/Gaussian/src/main.cpp",
+  "output": "CMakeFiles/gaussian.dir/src/main.cpp.o"
+}
+]

@@ -1,0 +1,2 @@
+Log file created: log.txt
+[/mnt/9399549f-9879-48b3-90ed-7eae6b2b36c1/Projects/Code/CXX/Gaussian/src/Util/Logger.cpp] [info] [1747274517.428000]: This is a test log message.
