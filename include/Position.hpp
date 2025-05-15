@@ -2,6 +2,7 @@
 #define POSITION_HPP_
 
 #include <cstddef>
+#include <string>
 
 namespace Gaussian {
 
@@ -47,12 +48,12 @@ namespace Gaussian {
         };
 
         /**
-         * @brief Returns the string representation of the position.
-         * @return A string representation of the position in the format "line:column".
+         * @brief Converts the Position to a string representation.
+         * @return A string in the format "line:column".
          */
         std::string to_string() const;
     };
 
-}
+} // namespace Gaussian
 
 #endif // POSITION_HPP_

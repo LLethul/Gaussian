@@ -20,7 +20,7 @@ namespace Gaussian {
             l_brace, r_brace,
             l_bracket, r_bracket,
             comma, semicolon,
-            dot, colon,
+            dot, colon, at,
 
             end_of_file,
             unknown,
@@ -85,7 +85,12 @@ namespace Gaussian {
             {"{", TokenType::l_brace},
             {"}", TokenType::r_brace},
             {"[", TokenType::l_bracket},
-            {"]", TokenType::r_bracket}
+            {"]", TokenType::r_bracket},
+            {",", TokenType::comma},
+            {";", TokenType::semicolon},
+            {".", TokenType::dot},
+            {":", TokenType::colon},
+            {"@", TokenType::at}
         };
 
     }

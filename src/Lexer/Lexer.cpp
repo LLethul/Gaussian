@@ -75,14 +75,6 @@ Gaussian::Lexer::Token Gaussian::Lexer::Lexer::next_token() {
         return string_literal();
     } else if (Gaussian::Lexer::delimiters.find(std::string(1, current_char)) != Gaussian::Lexer::delimiters.end()) {
         return create_token(Gaussian::Lexer::delimiters.at(std::string(1, current_char)), std::string(1, current_char), current_position_);
-    } else if (current_char == ',') {
-        return create_token(TokenType::comma, ",", current_position_);
-    } else if (current_char == ';') {
-        return create_token(TokenType::semicolon, ";", current_position_);
-    } else if (current_char == '.') {
-        return create_token(TokenType::dot, ".", current_position_);
-    } else if (current_char == ':') {
-        return create_token(TokenType::colon, ":", current_position_);
     } else if (std::find(Gaussian::Lexer::operators.begin(), Gaussian::Lexer::operators.end(), std::string(1, current_char)) != Gaussian::Lexer::operators.end()) {
         return create_token(TokenType::op, std::string(1, current_char), current_position_);
     }

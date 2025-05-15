@@ -11,7 +11,7 @@ void Gaussian::Util::Logger::log(const std::string& message, int level) {
 
     // Format the log message
     std::ostringstream log_stream;
-    log_stream << "[" << __FILE__ << "] " << Gaussian::Util::Logger::log_levels[level] << " [" << std::fixed << std::setprecision(6) << millis << "]: " << message;
+    log_stream << "[" << __FILE__ << "] " << Gaussian::Util::Logger::log_levels[level] << " [" << std::fixed << std::setprecision(6) << millis << "]\n-> " << message;
 
     // Output the log message
     if (log_file_path == "stdout") {

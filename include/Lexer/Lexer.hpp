@@ -13,7 +13,7 @@ namespace Gaussian {
              * @brief Constructs a Lexer object with the given source code.
              * @param source The source code to tokenize.
              */
-            Lexer(const std::string& source);
+            Lexer(const std::string& source) : source_(source), current_position_(0, 0), current_index_(0) {};
 
             /**
              * @brief Tokenizes the source code into a vector of tokens.
